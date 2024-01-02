@@ -50,3 +50,43 @@
 2024-01-01 21:11:55,365 - seleniumjavaautomation -INFO - Text is entered in Grand Parent1 text box
 2024-01-01 21:11:55,366 - seleniumjavaautomation -INFO - testIsEnabled test finished
 2024-01-01 21:11:55,853 - seleniumjavaautomation -INFO - Browser closed successfully
+2024-01-02 10:29:37,013 - seleniumjavaautomation -INFO - Chrome browser launched successfully
+2024-01-02 10:29:37,228 - seleniumjavaautomation -INFO - testBasicTestBrowserLaunch test started
+2024-01-02 10:29:41,932 - seleniumjavaautomation -INFO - Application launched
+2024-01-02 10:29:41,978 - seleniumjavaautomation -INFO - Current page url is printed
+2024-01-02 10:29:41,999 - seleniumjavaautomation -INFO - Page Title is printed
+2024-01-02 10:29:42,000 - seleniumjavaautomation -INFO - testBasicTestBrowserLaunch test finished
+2024-01-02 10:29:42,020 - seleniumjavaautomation -INFO - testDisplayed test method started
+2024-01-02 10:29:45,999 - seleniumjavaautomation -INFO - Application launched
+2024-01-02 10:29:46,031 - seleniumjavaautomation -INFO - Current page url is printed
+2024-01-02 10:29:46,045 - seleniumjavaautomation -INFO - Page Title is printed
+2024-01-02 10:29:46,168 - seleniumjavaautomation -INFO - Grand Parent1 text box Is displayed
+2024-01-02 10:29:46,168 - seleniumjavaautomation -INFO - testDisplayed test finished
+2024-01-02 10:29:46,178 - seleniumjavaautomation -INFO - testIsEnabled test method started
+2024-01-02 10:29:49,177 - seleniumjavaautomation -INFO - Application launched
+2024-01-02 10:29:49,200 - seleniumjavaautomation -INFO - Current page url is printed
+2024-01-02 10:29:49,212 - seleniumjavaautomation -INFO - Page Title is printed
+2024-01-02 10:29:49,272 - seleniumjavaautomation -INFO - Grand Parent1 text box Is enabled.
+2024-01-02 10:29:49,555 - seleniumjavaautomation -INFO - Text is entered in Grand Parent1 text box
+2024-01-02 10:29:49,556 - seleniumjavaautomation -INFO - testIsEnabled test finished
+2024-01-02 10:29:50,061 - seleniumjavaautomation -INFO - Browser closed successfully
+2024-01-02 14:55:43,511 - seleniumjavaautomation -INFO - Chrome browser launched successfully
+2024-01-02 14:55:43,733 - seleniumjavaautomation -INFO - testBasicTestBrowserLaunch test started
+2024-01-02 14:55:48,425 - seleniumjavaautomation -INFO - Application launched
+2024-01-02 14:55:48,476 - seleniumjavaautomation -INFO - Current page url is printed
+2024-01-02 14:55:48,501 - seleniumjavaautomation -INFO - Page Title is printed
+2024-01-02 14:55:48,506 - seleniumjavaautomation -INFO - testBasicTestBrowserLaunch test finished
+2024-01-02 14:55:48,517 - seleniumjavaautomation -INFO - testDisplayed test method started
+2024-01-02 14:55:52,325 - seleniumjavaautomation -INFO - Application launched
+2024-01-02 14:55:52,360 - seleniumjavaautomation -INFO - Current page url is printed
+2024-01-02 14:55:52,375 - seleniumjavaautomation -INFO - Page Title is printed
+2024-01-02 14:55:52,544 - seleniumjavaautomation -INFO - Grand Parent1 text box Is displayed
+2024-01-02 14:55:52,545 - seleniumjavaautomation -INFO - testDisplayed test finished
+2024-01-02 14:55:52,551 - seleniumjavaautomation -INFO - testIsEnabled test method started
+2024-01-02 14:55:55,847 - seleniumjavaautomation -INFO - Application launched
+2024-01-02 14:55:55,880 - seleniumjavaautomation -INFO - Current page url is printed
+2024-01-02 14:55:55,902 - seleniumjavaautomation -INFO - Page Title is printed
+2024-01-02 14:55:56,019 - seleniumjavaautomation -INFO - Grand Parent1 text box Is enabled.
+2024-01-02 14:55:56,409 - seleniumjavaautomation -INFO - Text is entered in Grand Parent1 text box
+2024-01-02 14:55:56,410 - seleniumjavaautomation -INFO - testIsEnabled test finished
+2024-01-02 14:55:57,312 - seleniumjavaautomation -INFO - Browser closed successfully
