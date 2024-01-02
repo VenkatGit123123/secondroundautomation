@@ -88,5 +88,7 @@ public class BasePage {
 		driver.quit();
 		logger.info("Browser closed successfully");
 	}
+	
+	
 
 }

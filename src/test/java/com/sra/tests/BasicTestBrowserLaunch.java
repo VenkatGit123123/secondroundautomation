@@ -1,6 +1,7 @@
 package com.sra.tests;
 
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.gargoylesoftware.htmlunit.WebConsole.Logger;
