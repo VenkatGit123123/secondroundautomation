@@ -38,12 +38,12 @@
     </classes>
   </test> <!-- Selenium Java Automation Test -->
   
-  <test thread-count="5" name="Selenium Java Automation headlessEdge Test">
+  <!--<test thread-count="5" name="Selenium Java Automation headlessEdge Test">
     <parameter name="browser" value="headlessEdge"/>
     <classes>
       <class name="com.sra.tests.BasicTestBrowserLaunch"/>
     </classes>
-  </test> <!-- Selenium Java Automation Test -->
+  </test>-->  <!-- Selenium Java Automation Test -->
   
   <test thread-count="5" name="Selenium Java Automation htmlUnitDriver Test">
     <parameter name="browser" value="htmlUnitDriver"/>

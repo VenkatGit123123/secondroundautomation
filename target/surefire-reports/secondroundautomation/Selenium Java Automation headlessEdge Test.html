@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/3</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jan 03 09:31:19 IST 2024</td>
+<td>Started on:</td><td>Wed Jan 03 09:40:55 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (583 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5513 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -84,7 +84,7 @@ Host info: host: &apos;DESKTOP-60U4M33&apos;, ip: &apos;192.168.0.107&apos;
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*, --headless], extensions: []}}]}]
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*, --headless], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
@@ -100,15 +100,15 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEd
 	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
 	at com.sra.basepack.BasePage.setUp(BasePage.java:86)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1740328397", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1740328397'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace847141861", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace847141861'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn&apos;t exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
 Host info: host: &apos;DESKTOP-60U4M33&apos;, ip: &apos;192.168.0.107&apos;
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*, --headless], extensions: []}}]}]
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*, --headless], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
@@ -154,8 +154,8 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEd
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 </pre></div></td>
-<td>0</td>
-<td>com.sra.tests.BasicTestBrowserLaunch@4be29ed9</td></tr>
+<td>5</td>
+<td>com.sra.tests.BasicTestBrowserLaunch@5149d738</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -169,7 +169,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEd
 <td title='com.sra.tests.BasicTestBrowserLaunch.tearDown()'><b>tearDown</b><br>Test class: com.sra.tests.BasicTestBrowserLaunch</td>
 <td></td>
 <td>0</td>
-<td>com.sra.tests.BasicTestBrowserLaunch@4be29ed9</td></tr>
+<td>com.sra.tests.BasicTestBrowserLaunch@5149d738</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -180,7 +180,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEd
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.sra.tests.BasicTestBrowserLaunch.testBasicTestBrowserLaunch()'><b>testBasicTestBrowserLaunch</b><br>Test class: com.sra.tests.BasicTestBrowserLaunch</td>
+<td title='com.sra.tests.BasicTestBrowserLaunch.testIsEnabled()'><b>testIsEnabled</b><br>Test class: com.sra.tests.BasicTestBrowserLaunch</td>
 <td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn&apos;t exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -188,7 +188,7 @@ Host info: host: &apos;DESKTOP-60U4M33&apos;, ip: &apos;192.168.0.107&apos;
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*, --headless], extensions: []}}]}]
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*, --headless], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
@@ -204,15 +204,15 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEd
 	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
 	at com.sra.basepack.BasePage.setUp(BasePage.java:86)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1027646388", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1027646388'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1155300221", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1155300221'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn&apos;t exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
 Host info: host: &apos;DESKTOP-60U4M33&apos;, ip: &apos;192.168.0.107&apos;
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*, --headless], extensions: []}}]}]
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*, --headless], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
@@ -259,7 +259,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEd
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 </pre></div></td>
 <td>0</td>
-<td>com.sra.tests.BasicTestBrowserLaunch@4be29ed9</td></tr>
+<td>com.sra.tests.BasicTestBrowserLaunch@5149d738</td></tr>
 <tr>
 <td title='com.sra.tests.BasicTestBrowserLaunch.testDisplayed()'><b>testDisplayed</b><br>Test class: com.sra.tests.BasicTestBrowserLaunch</td>
 <td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
@@ -269,7 +269,7 @@ Host info: host: &apos;DESKTOP-60U4M33&apos;, ip: &apos;192.168.0.107&apos;
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*, --headless], extensions: []}}]}]
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*, --headless], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
@@ -285,15 +285,15 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEd
 	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
 	at com.sra.basepack.BasePage.setUp(BasePage.java:86)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2131984667", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2131984667'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace111238003", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace111238003'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn&apos;t exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
 Host info: host: &apos;DESKTOP-60U4M33&apos;, ip: &apos;192.168.0.107&apos;
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*, --headless], extensions: []}}]}]
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*, --headless], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
@@ -340,9 +340,9 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEd
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 </pre></div></td>
 <td>0</td>
-<td>com.sra.tests.BasicTestBrowserLaunch@4be29ed9</td></tr>
+<td>com.sra.tests.BasicTestBrowserLaunch@5149d738</td></tr>
 <tr>
-<td title='com.sra.tests.BasicTestBrowserLaunch.testIsEnabled()'><b>testIsEnabled</b><br>Test class: com.sra.tests.BasicTestBrowserLaunch</td>
+<td title='com.sra.tests.BasicTestBrowserLaunch.testBasicTestBrowserLaunch()'><b>testBasicTestBrowserLaunch</b><br>Test class: com.sra.tests.BasicTestBrowserLaunch</td>
 <td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn&apos;t exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
@@ -350,7 +350,7 @@ Host info: host: &apos;DESKTOP-60U4M33&apos;, ip: &apos;192.168.0.107&apos;
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*, --headless], extensions: []}}]}]
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*, --headless], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
@@ -366,15 +366,15 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEd
 	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
 	at com.sra.basepack.BasePage.setUp(BasePage.java:86)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1509715205", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1509715205'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1617566660", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1617566660'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
   (session not created: DevToolsActivePort file doesn&apos;t exist)
   (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
 Host info: host: &apos;DESKTOP-60U4M33&apos;, ip: &apos;192.168.0.107&apos;
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*, --headless], extensions: []}}]}]
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--remote-allow-origins=*, --headless], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
@@ -421,7 +421,7 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEd
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 </pre></div></td>
 <td>0</td>
-<td>com.sra.tests.BasicTestBrowserLaunch@4be29ed9</td></tr>
+<td>com.sra.tests.BasicTestBrowserLaunch@5149d738</td></tr>
 </table><p>
 </body>
 </html>
