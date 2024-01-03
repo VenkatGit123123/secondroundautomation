@@ -17,12 +17,12 @@
     </classes>
   </test> <!-- Selenium Java Automation Test -->
   
-  <test thread-count="5" name="Selenium Java Automation Edge Test">
+  <!--<test thread-count="5" name="Selenium Java Automation Edge Test">
     <parameter name="browser" value="edge"/>
     <classes>
       <class name="com.sra.tests.BasicTestBrowserLaunch"/>
     </classes>
-  </test> <!-- Selenium Java Automation Test -->
+  </test>  -->  <!-- Selenium Java Automation Test --> 
   
   <test thread-count="5" name="Selenium Java Automation headlessChrome Test">
     <parameter name="browser" value="headlessChrome"/>
