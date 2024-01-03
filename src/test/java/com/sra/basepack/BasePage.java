@@ -1,5 +1,7 @@
 package com.sra.basepack;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.Duration;
 
 import org.apache.log4j.Logger;
@@ -15,20 +17,33 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BasePage {
 	
-	public static WebDriver driver;
+	public WebDriver driver = null;
 	public static Logger logger;
+	/**public static final String USERNAME = "oauth-krishnaqa1052-1135b";
+    public static final String ACCESS_KEY = "adbdb32d-d713-46a2-80ab-b9d8480b4700";
+    public static final String SAUCE_URL = "https://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:443/wd/hub";**/
 	
+	//@Parameters({"browser","version","platform"})
 	@Parameters("browser")
 	@BeforeClass
-	public void setUp(String br)
+	public void setUp(String br) throws MalformedURLException  //String pf, //String vr
 	{
 		logger = Logger.getLogger("seleniumjavaautomation");
 		PropertyConfigurator.configure("log4j.properties");
+		
+	/**	DesiredCapabilities caps = new DesiredCapabilities();
+        caps.setCapability("browserName", br);
+        caps.setCapability("platform", pf);
+        caps.setCapability("version", vr);
+        driver = new RemoteWebDriver(new URL(SAUCE_URL), caps);
+         **/
 		
 		if(br.equals("chrome"))
 		{

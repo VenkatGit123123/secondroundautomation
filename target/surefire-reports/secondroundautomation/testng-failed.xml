@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [secondroundautomation]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Selenium Java Automation Test(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.sra.tests.BasicTestBrowserLaunch">
+        <methods>
+          <include name="testIsEnabled"/>
+          <include name="testBasicTestBrowserLaunch"/>
+          <include name="setUp"/>
+          <include name="testDisplayed"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sra.tests.BasicTestBrowserLaunch -->
+    </classes>
+  </test> <!-- Selenium Java Automation Test(failed) -->
+</suite> <!-- Failed suite [secondroundautomation] -->
