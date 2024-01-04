@@ -1,5 +1,7 @@
 package com.sra.tests;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -60,7 +62,7 @@ public class BasicTestBrowserLaunch extends BasePage{
 	}	
 	
 	    @Test(priority=3)
-		public void testIsEnabled()
+		public void testIsEnabled() throws IOException
 		{
 	    	
 	    	logger.info("testIsEnabled test method started");
@@ -88,6 +90,7 @@ public class BasicTestBrowserLaunch extends BasePage{
 		{
 			System.out.println("Grand Parent1 box Is Not enabled.");
 			logger.info("Grand Parent1 box Is Not enabled.");
+			captureScreen(driver,"testIsEnabled");
 		}
 		
 		logger.info("testIsEnabled test finished");

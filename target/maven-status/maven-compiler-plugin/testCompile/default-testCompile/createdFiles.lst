@@ -1,2 +1,3 @@
 com\sra\tests\BasicTestBrowserLaunch.class
 com\sra\basepack\BasePage.class
+com\sra\reporting\Reporting.class
