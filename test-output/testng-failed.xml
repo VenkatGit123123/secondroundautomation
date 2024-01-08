@@ -5,7 +5,7 @@
     <listener class-name="com.sra.reporting.Reporting"/>
   </listeners>
   <test thread-count="2" name="secondroundautomationTest(failed)">
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.sra.tests.BasicTestBrowserLaunch">
         <methods>

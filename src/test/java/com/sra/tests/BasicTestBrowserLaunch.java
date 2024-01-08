@@ -19,6 +19,8 @@ public class BasicTestBrowserLaunch extends BasePage{
 		//open application in browser
 		driver.get("http://only-testing-blog.blogspot.com");
 		logger.info("Application launched");
+		
+		
 		String currentUrl = driver.getCurrentUrl();
 		System.out.println("The URL: "+currentUrl);
 		logger.info("Current page url is printed");
@@ -69,17 +71,48 @@ public class BasicTestBrowserLaunch extends BasePage{
 			//open application in browser
 			driver.get("http://only-testing-blog.blogspot.com");
 			logger.info("Application launched");
-			String currentUrl = driver.getCurrentUrl();
+			
+			//get current url and verified
+			if(driver.getCurrentUrl().equals("http://only-testing-blog.blogspot.com/"))
+			{
+				Assert.assertTrue(true);
+				logger.info("URL verified");
+			}
+			else
+			{
+				captureScreen(driver,"testIsEnabled");
+				Assert.assertTrue(false);
+				logger.info("URL mismatched");
+				
+			}
+			
+			/**String currentUrl = driver.getCurrentUrl();
 			System.out.println("The URL: "+currentUrl);
-			logger.info("Current page url is printed");
+			logger.info("Current page url is printed"); **/
 			
-			String pageTitle = driver.getTitle();
+			//get title and verify 
+			if(driver.getTitle().equals("Only Testing"))
+			{
+				Assert.assertTrue(true);
+				logger.info("Title verified");
+			}
+			else
+			{
+				captureScreen(driver,"testIsEnabled");
+				Assert.assertTrue(false);
+				logger.info("Title mismatched");
+			} 
+	     
+		
+			
+		/**	String pageTitle = driver.getTitle();
 			System.out.println("The Page Title: "+pageTitle);
-			logger.info("Page Title is printed");
+			logger.info("Page Title is printed"); **/
 			
-			
+		//element enabled or not	
 		if(driver.findElement(By.xpath("//input[@name='gparent1']")).isEnabled())
 		{
+			Assert.assertTrue(true);
 			System.out.println("Grand Parent1 text box Is enabled.");
 			logger.info("Grand Parent1 text box Is enabled.");
 			driver.findElement(By.xpath("//input[@name='gparent1']")).sendKeys("WebDriver Test");
@@ -88,9 +121,11 @@ public class BasicTestBrowserLaunch extends BasePage{
 		}
 		else
 		{
+			captureScreen(driver,"testIsEnabled");
+			Assert.assertTrue(false);
 			System.out.println("Grand Parent1 box Is Not enabled.");
 			logger.info("Grand Parent1 box Is Not enabled.");
-			captureScreen(driver,"testIsEnabled");
+			
 		}
 		
 		logger.info("testIsEnabled test finished");
