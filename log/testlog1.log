@@ -503,3 +503,18 @@
 2024-01-04 10:13:33,784 [main] INFO seleniumjavaautomation - testIsEnabled test method started
 2024-01-04 10:13:36,895 [main] INFO seleniumjavaautomation - Application launched
 2024-01-04 10:13:37,666 [main] INFO seleniumjavaautomation - Browser closed successfully
+2024-01-09 06:33:36,749 [main] INFO seleniumjavaautomation - Chrome browser launched successfully
+2024-01-09 06:33:37,007 [main] INFO seleniumjavaautomation - testBasicTestBrowserLaunch test started
+2024-01-09 06:33:40,399 [main] INFO seleniumjavaautomation - Application launched
+2024-01-09 06:33:40,443 [main] INFO seleniumjavaautomation - Current page url is printed
+2024-01-09 06:33:40,466 [main] INFO seleniumjavaautomation - Page Title is printed
+2024-01-09 06:33:40,467 [main] INFO seleniumjavaautomation - testBasicTestBrowserLaunch test finished
+2024-01-09 06:33:40,566 [main] INFO seleniumjavaautomation - testDisplayed test method started
+2024-01-09 06:33:44,583 [main] INFO seleniumjavaautomation - Application launched
+2024-01-09 06:33:44,614 [main] INFO seleniumjavaautomation - Current page url is printed
+2024-01-09 06:33:44,639 [main] INFO seleniumjavaautomation - Page Title is printed
+2024-01-09 06:33:44,891 [main] INFO seleniumjavaautomation - Grand Parent1 text box Is displayed
+2024-01-09 06:33:44,892 [main] INFO seleniumjavaautomation - testDisplayed test finished
+2024-01-09 06:33:44,896 [main] INFO seleniumjavaautomation - testIsEnabled test method started
+2024-01-09 06:33:48,047 [main] INFO seleniumjavaautomation - Application launched
+2024-01-09 06:33:49,595 [main] INFO seleniumjavaautomation - Browser closed successfully

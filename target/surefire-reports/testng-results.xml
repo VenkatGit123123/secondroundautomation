@@ -1,36 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-04T09:03:46 IST" name="secondroundautomationSuite" finished-at="2024-01-04T09:04:19 IST" duration-ms="32737">
+  <suite started-at="2024-01-09T06:33:21 IST" name="secondroundautomationSuite" finished-at="2024-01-09T06:33:49 IST" duration-ms="28248">
     <groups>
     </groups>
-    <test started-at="2024-01-04T09:03:46 IST" name="secondroundautomationTest" finished-at="2024-01-04T09:04:19 IST" duration-ms="32737">
+    <test started-at="2024-01-09T06:33:21 IST" name="secondroundautomationTest" finished-at="2024-01-09T06:33:49 IST" duration-ms="28248">
       <class name="com.sra.tests.BasicTestBrowserLaunch">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.sra.tests.BasicTestBrowserLaunch@54c5a2ff]" started-at="2024-01-04T09:03:46 IST" name="setUp" finished-at="2024-01-04T09:04:02 IST" duration-ms="16001" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.sra.tests.BasicTestBrowserLaunch@54c5a2ff]" started-at="2024-01-09T06:33:22 IST" name="setUp" finished-at="2024-01-09T06:33:36 IST" duration-ms="14719" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testBasicTestBrowserLaunch()[pri:1, instance:com.sra.tests.BasicTestBrowserLaunch@54c5a2ff]" started-at="2024-01-04T09:04:03 IST" name="testBasicTestBrowserLaunch" finished-at="2024-01-04T09:04:08 IST" duration-ms="5535" status="PASS">
+        <test-method signature="testBasicTestBrowserLaunch()[pri:1, instance:com.sra.tests.BasicTestBrowserLaunch@54c5a2ff]" started-at="2024-01-09T06:33:37 IST" name="testBasicTestBrowserLaunch" finished-at="2024-01-09T06:33:40 IST" duration-ms="3465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBasicTestBrowserLaunch -->
-        <test-method signature="testDisplayed()[pri:2, instance:com.sra.tests.BasicTestBrowserLaunch@54c5a2ff]" started-at="2024-01-04T09:04:08 IST" name="testDisplayed" finished-at="2024-01-04T09:04:12 IST" duration-ms="4010" status="PASS">
+        <test-method signature="testDisplayed()[pri:2, instance:com.sra.tests.BasicTestBrowserLaunch@54c5a2ff]" started-at="2024-01-09T06:33:40 IST" name="testDisplayed" finished-at="2024-01-09T06:33:44 IST" duration-ms="4328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDisplayed -->
-        <test-method signature="testIsEnabled()[pri:3, instance:com.sra.tests.BasicTestBrowserLaunch@54c5a2ff]" started-at="2024-01-04T09:04:12 IST" name="testIsEnabled" finished-at="2024-01-04T09:04:16 IST" duration-ms="3985" status="PASS">
+        <test-method signature="testIsEnabled()[pri:3, instance:com.sra.tests.BasicTestBrowserLaunch@54c5a2ff]" started-at="2024-01-09T06:33:44 IST" name="testIsEnabled" finished-at="2024-01-09T06:33:48 IST" duration-ms="3910" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.sra.tests.BasicTestBrowserLaunch.testIsEnabled(BasicTestBrowserLaunch.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsEnabled -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sra.tests.BasicTestBrowserLaunch@54c5a2ff]" started-at="2024-01-04T09:04:16 IST" name="tearDown" finished-at="2024-01-04T09:04:19 IST" duration-ms="2405" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sra.tests.BasicTestBrowserLaunch@54c5a2ff]" started-at="2024-01-09T06:33:48 IST" name="tearDown" finished-at="2024-01-09T06:33:49 IST" duration-ms="767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

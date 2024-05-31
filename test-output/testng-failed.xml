@@ -10,7 +10,9 @@
       <class name="com.sra.tests.BasicTestBrowserLaunch">
         <methods>
           <include name="testIsEnabled"/>
+          <include name="testBasicTestBrowserLaunch"/>
           <include name="setUp"/>
+          <include name="testDisplayed"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.sra.tests.BasicTestBrowserLaunch -->
